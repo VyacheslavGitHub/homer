@@ -1,0 +1,58 @@
+.bl{
+    width: 600px;
+    background-color: deepskyblue;
+    border-radius: 5px;
+}
+.title{
+    font-size: 20px;
+    font-family: Arial;
+    width: 240px;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: url(img/Homer_Simpson.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.box {
+    display: flex;
+}
+
+.left {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.right{
+    width: 400px;
+}
+
+.about{
+    list-style: none;
+}
+
+.about__item{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.param{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
